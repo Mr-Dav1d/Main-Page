@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    
+}
+
+.head h1{
+    color: #F9FAF8;
+    font-size: 29px;
+}
+
+.head ul, a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.first_block{
+    display: flex;
+    flex-grow: 0;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.Main_info{
+    width: 40%;
+    color: #bebebd;
+}
+
+.Main_info h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.Main_info button{
+    color: white;
+    background-color: #3882F6;
+    font-weight: bold;
+    width: 100px;
+    height: auto;
+    padding: 6px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.img_placeholder{
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    justify-content: center;
+    width: 60%;
+    background-color: #bebebd;
+    overflow: hidden;
+}
+
+.img_placeholder img{
+    width: 100%; /* Set the image width to fill the container */
+    height: 100%; /* Set the image height to fill the container */
+    object-fit: cover
+}
