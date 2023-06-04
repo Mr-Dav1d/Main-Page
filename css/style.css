@@ -164,7 +164,7 @@ body{
     color: black;
 }
 
-.ad{
+.more_event{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,7 +172,7 @@ body{
     width: 100%;
 }
 
-.container_ad{
+.container_events{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,7 +183,7 @@ body{
     background-color: #3882F6
 }
 
-.container_ad button{
+.container_events button{
     color: white;
     background-color: #3882F6;
     font-weight: bold;
